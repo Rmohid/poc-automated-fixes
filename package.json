@@ -1,0 +1,22 @@
+{
+  "name": "poc-automated-fixes",
+  "version": "1.0.0",
+  "description": "Proof of concept: Automated bug detection and fix loop using GitHub Actions, Issues, and Copilot Workspace",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "github-actions",
+    "automated-fixes",
+    "copilot-workspace",
+    "ci-cd"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.2.0",
+    "jest": "^30.2.0"
+  }
+}
