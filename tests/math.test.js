@@ -39,7 +39,7 @@ describe("math", () => {
   //   2. Commit and push to a non-main branch
   //   3. Watch the GitHub Actions workflow create an issue
   // ============================================================
-  // test("INTENTIONAL FAILURE: add(2, 2) should equal 5", () => {
-  //   expect(add(2, 2)).toBe(5);
-  // });
+  test("INTENTIONAL FAILURE: add(2, 2) should equal 5", () => {
+    expect(add(2, 2)).toBe(5);
+  });
 });
